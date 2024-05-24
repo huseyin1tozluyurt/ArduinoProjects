@@ -28,21 +28,7 @@ void lightOff()
   digitalWrite(led3,LOW);
   digitalWrite(led4,LOW);
 }
-/*
 
-
-
-
-void light(int pin){
-  digitalWrite(pin,HIGH);
-  delay(300);
-  digitalWrite(pin,LOW);
-
-}
-for(int i=0;i<10;i++){
-  light(i);
-}
-*/
 void lightOn()
 {
   digitalWrite(led1,HIGH);
@@ -50,6 +36,7 @@ void lightOn()
   digitalWrite(led3,HIGH);
   digitalWrite(led4,HIGH);
 }
+
 void buzzFunc(int value)
 {
   tone(buzzer,value);
@@ -57,6 +44,7 @@ void buzzFunc(int value)
   noTone(buzzer);
   delay(100);
 }
+
 void victoryMessage()
 {
   Serial.println("You won the game!...");
@@ -76,8 +64,9 @@ void victoryMessage()
   delay(500);
   lightOff();
 }
+
+
 void loop() {
-  // put your main code here, to run repeatedly:
 
   int turn=random(5,8);
   int* requestedMoves=new int[turn]; 
