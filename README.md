@@ -4,8 +4,12 @@ At the end of the sequential blinking process by the machine,gamer should press 
 If the gamer presses to the wrong button,then the system restart game buzzing nothing except for the specific sound of each button that corresponds each led for 1 time.
 If the gamer presses to the correct button for his move,then all LED's blinks for 3 times and buzzer sounds for 3 times at the same time as victory message,then system remakes a game.
 
-Materials Used:LED,Button,Buzzer,Arduino Nano,Resistors.
-Enhancement ideas:
-Implementation of IR remote controller instead of buttons.
 
-Areas of Usage:This project can be used as a toy for kids to enhance their memory capabilities as virtually and audiotory.
+Area of Usage:This project can be used as a toy for kids to enhance their memory capabilities as virtually and audiotory.
+
+
+
+Materials Used:LED,Button,Buzzer,Arduino Nano,Resistors.
+
+Enhancement ideas:Implementation of IR remote controller instead of buttons.
+
