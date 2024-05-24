@@ -64,12 +64,15 @@ void victoryMessage()
   lightOn();
   delay(500);
   lightOff();
+  buzzFunc(200);
   delay(500);
   lightOn();
+  buzzFunc(200);
   delay(500);
   lightOff();
   delay(500);
   lightOn();
+  buzzFunc(200);
   delay(500);
   lightOff();
 }
