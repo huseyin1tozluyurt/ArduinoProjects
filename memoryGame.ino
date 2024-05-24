@@ -8,7 +8,6 @@
 #define but4 11
 #define buzzer 12
 void setup() {
-  // put your setup code here, to run once:
   pinMode(led1,OUTPUT);
   pinMode(led2,OUTPUT);
   pinMode(led3,OUTPUT);
