@@ -1,3 +1,7 @@
+Edit:
+Other arduino project documents are added to this repository.
+(This part is the explanation of the file "memory game")
+--------------------------------------------------------------
 In this project,design of a simple memory game machine is considered.
 Gamer is going to encounter 4 LED's that are blinking randomly for 5 to 7 times.
 At the end of the sequential blinking process by the machine,gamer should press the buttons(num:4) that corresponds to 4 LED's.
